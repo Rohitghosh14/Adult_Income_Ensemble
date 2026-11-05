@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data (re-downloadable, not stored in Git)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Saved models (we decide at the end what to push)
+models/*.joblib
+
+# Notebooks, frontend, secrets
+.ipynb_checkpoints/
+frontend/node_modules/
+.env
