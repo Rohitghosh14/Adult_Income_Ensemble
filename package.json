@@ -1,0 +1,7 @@
+{
+  "name": "adult-income-ensemble",
+  "private": true,
+  "scripts": {
+    "dev": "cd frontend && npm run dev"
+  }
+}
